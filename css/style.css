@@ -302,7 +302,7 @@ footer {
     }
 
     .boton:hover {
-        box-shadow: 0 0 11px rgba(15, 15, 15, 0.404);
+        box-shadow: 0 0 11px rgba(15, 15, 15, 0.603);
     }
 
     /*TITULOS TEXTOS SECTION*/
@@ -929,7 +929,7 @@ footer {
     }
 
     .boton:hover {
-        box-shadow: 0 0 11px rgba(15, 15, 15, 0.404);
+        box-shadow: 0 0 11px rgba(15, 15, 15, 0.603);
     }
 
     /*PAGINA SERVICIOS*/
@@ -1136,7 +1136,7 @@ footer {
         margin-bottom: 30px;
         padding: 7px;
         box-sizing: border-box;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     textarea {
