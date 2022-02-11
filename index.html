@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,17 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sally Mohadeb Servicio Tecnico Integral</title>
     <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-    <div id="main">
+    <div>
         <header>
             <a href="index.html" id="logo"><img src="imagenes/Logo.png" height="123.13" width="240" alt="Logo"
-                    title="logo"></a>
+                    title="logo" class="logo"></a>
 
             <nav>
                 <ul id="ulNav">
@@ -32,15 +31,17 @@
 
         <section id="sectionIndex">
             <div class="contenedor">
-                <img src="imagenes/ImagenHeader.jpg" alt="ImagenHeader" title="imagenbackground" />
+                <img src="imagenes/ImagenHeader.jpg" alt="ImagenHeader" title="imagenbackground" class="imagenDesktop">
+                <img src="imagenes/header mobile.jpg" alt="ImagenHeader" title="imagenbackground" class="imagenMobile">
                 <div class="texto1">TODAS LAS SOLUCIONES</div>
                 <div class="texto2">EN UN SOLO LUGAR</div>
             </div>
 
             <div class="texto">
-                <h2>Soporte Técnico Integral</h2>
-                <h3>Servicio a Particulares y Empresas</h3>
-                <h4>Podemos ofrecerte un servicio técnico de computadoras rápido, confiable, económico y a la medida
+                <h2 class="textoH">Soporte Técnico Integral</h2>
+                <h3 class="textoH">Servicio a Particulares y Empresas</h3>
+                <h4 class="textoH">Podemos ofrecerte un servicio técnico de computadoras rápido, confiable, económico y
+                    a la medida
                     de tu necesidad.</h4>
                 <p class="parrafo">Brindamos soluciones personalizadas y efectivas a todas las problemáticas
                     relacionadas
@@ -57,19 +58,19 @@
             </div>
 
             <div class="articles">
-                <article class="articulo">
+                <article class="articulo1">
                     <img src="imagenes/Notebooks.png" height="240" width="240" alt="notebook" class="imagenArticle">
                     <h3 class="tituloBloque">Redes</h3>
                     <p class="parrafoArticle">Planificación, cableado y mantenimiento de redes.</p>
                 </article>
 
-                <article class="articulo">
+                <article class="articulo2">
                     <img src="imagenes/PCs.png" height="240" width="240" alt="pcs" class="imagenArticle">
                     <h3 class="tituloBloque">Redes</h3>
                     <p class="parrafoArticle">Planificación, cableado y mantenimiento de redes.</p>
                 </article>
 
-                <article class="articulo">
+                <article class="articulo3">
                     <img src="imagenes/Redes.png" height="240" width="240" alt="redes" class="imagenArticle">
                     <h3 class="tituloBloque">Redes</h3>
                     <p class="parrafoArticle">Planificación, cableado y mantenimiento de redes.</p>
@@ -95,7 +96,8 @@
             </nav>
 
             <div id="redes">
-                <img class="botonesRedes" src="iconos/whatsapp.png" alt="iconowhatsapp" height="16" width="16">
+                <a class="botonesRedes" href="https://api.whatsapp.com/send?phone=5491165892915" target="_blank"><img
+                        src="iconos/whatsapp.png" alt="iconowhatsapp" height="16" width="16"></a>
                 <a class="botonesRedes" href="https://www.facebook.com" target="_blank"><img src="iconos/facebook.png"
                         alt="iconofacebook" height="16" width="16"></a>
                 <a class="botonesRedes" href="https://www.instagram.com" target="_blank"><img src="iconos/instagram.png"
